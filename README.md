@@ -4,6 +4,7 @@
 - 🌱 I’m currently learning **Generative AI, Auto-ML, Business Analytics**
 
 - 📫 How to reach me **rissikumarp@gmail.com**
+-  Have a look at my Resume https://rissikumarp.github.io/rissikumar_portfolio/
 
 - 📄 Know about my experiences [https://tomato-cornie-9.tiiny.site](https://tomato-cornie-9.tiiny.site)
 
