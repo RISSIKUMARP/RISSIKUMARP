@@ -6,8 +6,6 @@
 - 📫 How to reach me **rissikumarp@gmail.com**
 -  Have a look at my Resume https://rissikumarp.github.io/rissikumar_portfolio/
 
-- 📄 Know about my experiences [https://tomato-cornie-9.tiiny.site](https://tomato-cornie-9.tiiny.site)
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/rissi kumar prabhakaran" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rissi kumar prabhakaran" height="30" width="40" /></a>
