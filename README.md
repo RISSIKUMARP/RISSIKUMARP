@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rissi%20Kumar%20Prabhakaran&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=fff" />
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&width=700&height=80&lines=Data+Scientist+%7C+AI+Engineer;MS+Data+Science+%40+CU+Boulder;Transforming+Data+into+Insights;Seeking+Internship+Opportunities" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&width=700&height=80&lines=Data+Scientist+%7C+AI+Engineer;MS+Data+Science+%40+CU+Boulder;Transforming+Data+into+Insights" alt="Typing SVG" /></a>
 
 <p align="center">
   <a href="mailto:rissikumarp@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
