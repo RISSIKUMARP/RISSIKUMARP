@@ -48,23 +48,21 @@ class DataScientist:
 ### 🎤 **Kashmir World Foundation** | Bioacoustics AI Data Scientist
 *June 2025 - Present | Great Falls, Virginia*
 
-- Preprocessed **600,000+ audio samples** using Label Studio & Audacity, boosting training efficiency by **19%**
-- Built AI pipelines with **BirdNET & YamNET** for bioacoustic analysis, improving precision by **11%**
-- Deploying **multi-agent AI system** with RL for resource optimization across **15+ workflows**
+
+
+### 🤖 **Classic Engineering orporation** | AI Engineer
+*June 2022 - July 2024 | Chennai, India*
+
+
 
 ### 🤖 **Vlog Innovations** | AI Engineer
 *January 2023 - June 2023 | Chennai, India*
 
-- Implemented PIFA system by fine-tuning **BERT** for medical record summarization
-- Designed job matching engine for Audire project achieving **93% precision**
-- Built SOS system using autoencoders, increasing response effectiveness by **17%**
+
 
 ### 🧠 **Pantech E-Learning** | AI Intern
 *June 2022 - November 2022 | Chennai, India*
 
-- Built sentiment analysis models achieving **94% accuracy** on customer feedback
-- Optimized computer vision pipelines with **YOLOv5 & OpenCV** reaching **90% precision**
-- Automated ML workflows using **Docker** and scheduling frameworks
 
 ---
 
