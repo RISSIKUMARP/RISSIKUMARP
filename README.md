@@ -56,12 +56,12 @@ class DataScientist:
 
 
 ### 🤖 **Vlog Innovations** | AI Engineer
-*January 2023 - June 2023 | Chennai, India*
+*January 2023 - Febuary 2023 | Chennai, India*
 
 
 
 ### 🧠 **Pantech E-Learning** | AI Intern
-*June 2022 - November 2022 | Chennai, India*
+*June 2022 - June 2022 | Chennai, India*
 
 
 ---
@@ -245,7 +245,7 @@ class DataScientist:
 ### 🎓 University of Colorado Boulder
 **Master of Science in Data Science**  
 📅 August 2024 - May 2026  
-🎯 GPA: 3.6/4.0
+🎯 GPA: 3.7/4.0
 
 **Key Focus:**
 - Machine Learning & Deep Learning
