@@ -53,17 +53,6 @@ class DataScientist:
 ### 🤖 **Classic Engineering orporation** | AI Engineer
 *June 2022 - July 2024 | Chennai, India*
 
-
-
-### 🤖 **Vlog Innovations** | AI Engineer
-*January 2023 - Febuary 2023 | Chennai, India*
-
-
-
-### 🧠 **Pantech E-Learning** | AI Intern
-*June 2022 - June 2022 | Chennai, India*
-
-
 ---
 
 ## 🚀 Featured Projects
