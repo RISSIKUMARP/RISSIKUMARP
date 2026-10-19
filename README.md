@@ -53,9 +53,13 @@ class AIEngineer:
 **Pure Fishing** &nbsp;·&nbsp; *AI Developer Intern*
 <br><sub>July 2026 – Present &nbsp;|&nbsp; Charleston, South Carolina</sub>
 
-`Python` `Azure Document Intelligence` `Azure Blob Storage` `Azure AI Search` `Docker` `Claude Code` `GitHub Actions`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_Document_Intelligence-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Azure Blob](https://img.shields.io/badge/Azure_Blob_Storage-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Azure Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-Built a single orchestrator with deterministic tool calls in Python, cutting agent overhead and latency on a dispute resolution system. Designed a 3 state signature classifier for the sign box combining a text check on Azure Document Intelligence OCR output with an ink density check on the rendered page. Audited OCR output, found handwriting flags, checkboxes, and figures were being silently dropped, and designed a raw data layer in Azure Blob Storage that preserves full output. Replaced a fifteen minute manual cross system lookup with an automated document chain retrieval system in Azure AI Search. Cut new retailer onboarding down to a single profile and test suite with a retailer profile abstraction stored as configuration data.
+- Built a single orchestrator with deterministic tool calls in Python, cutting agent overhead and latency on a dispute resolution system.
+- Designed a 3 state signature classifier for the sign box, combining a text check on Azure Document Intelligence OCR output with an ink density check on the rendered page.
+- Audited OCR output, found handwriting flags, checkboxes, and figures were being silently dropped, and designed a raw data layer in Azure Blob Storage that preserves full output.
+- Replaced a fifteen minute manual cross system lookup with an automated document chain retrieval system in Azure AI Search.
+- Cut new retailer onboarding down to a single profile and test suite with a retailer profile abstraction stored as configuration data.
 
 </td>
 </tr>
@@ -71,9 +75,13 @@ Built a single orchestrator with deterministic tool calls in Python, cutting age
 **Kashmir World Foundation** &nbsp;·&nbsp; *AI Data Engineer Intern*
 <br><sub>June 2025 – April 2026 &nbsp;|&nbsp; Great Falls, Virginia</sub>
 
-`PyTorch` `Triton Inference Server` `FAISS` `Sentence Transformers` `OpenRouter` `Kubernetes` `Agno`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Triton](https://img.shields.io/badge/Triton_Inference_Server-76B900?style=flat-square&logo=nvidia&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-00ADD8?style=flat-square) ![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![OpenRouter](https://img.shields.io/badge/OpenRouter-6E6E6E?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Agno](https://img.shields.io/badge/Agno-000000?style=flat-square)
 
-Replaced a single prompt OpenAI flight controller with a 4 agent autonomous system (Spatial, Vision, Data, Coordinator) on Agno, cutting execution time to under 40 seconds. Routed 70% of vision calls to Qwen3-VL-32B and Gemini 2.0 Flash on a latency budget policy, removing another 60% of avoidable calls with a pre filter gate. Cleared a 6 week analyst backlog in 4 days and lifted species classification precision 11% across 100,000+ audio samples by fine tuning a BirdNET and YamNET ensemble. Built a FAISS backed RAG system indexing 23,000 documents, dropping agent context retrieval time to 280ms p95. Benchmarked Gemma 4 dense against MoE variants, catching Qwen3-VL fabricating a translation and selecting models on cost per correct call.
+- Replaced a single prompt OpenAI flight controller with a 4 agent autonomous system (Spatial, Vision, Data, Coordinator) on Agno, cutting execution time to under 40 seconds.
+- Routed 70% of vision calls to Qwen3-VL-32B and Gemini 2.0 Flash on a latency budget policy, removing another 60% of avoidable calls with a pre filter gate.
+- Cleared a 6 week analyst backlog in 4 days and lifted species classification precision 11% across 100,000+ audio samples by fine tuning a BirdNET and YamNET ensemble.
+- Built a FAISS backed RAG system indexing 23,000 documents, dropping agent context retrieval time to 280ms p95.
+- Benchmarked Gemma 4 dense against MoE variants, catching Qwen3-VL fabricating a translation and selecting models on cost per correct call.
 
 </td>
 </tr>
@@ -88,9 +96,13 @@ Replaced a single prompt OpenAI flight controller with a 4 agent autonomous syst
 **Classic Engineering Corporation** &nbsp;·&nbsp; *AI Engineer*
 <br><sub>June 2022 – July 2024 &nbsp;|&nbsp; Chennai, India</sub>
 
-`Llama 2-7B` `LoRA` `Hugging Face PEFT` `TensorRT` `MLflow` `LangChain` `Langfuse`
+![Llama](https://img.shields.io/badge/Llama_2--7B-0668E1?style=flat-square&logo=meta&logoColor=white) ![LoRA](https://img.shields.io/badge/LoRA-FF6F61?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging_Face_PEFT-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square)
 
-Fine tuned Llama 2-7B with LoRA via Hugging Face PEFT on 1,200 maintenance records, cutting hallucinations. Scaled defect inspection from a single station to 180 edge nodes across 8 plants using Triton Inference Server on Jetson Orin with TensorRT quantization. Developed hydraulic cylinder failure prediction with a Temporal Fusion Transformer, beating the hand engineered LightGBM baseline by 7 points of recall. Prevented bad models from reaching production with a two week shadow deployment process compared through MLflow Model Registry. Built an agentic tool calling layer in LangChain with function access to live InfluxDB telemetry and SAP work order history.
+- Fine tuned Llama 2-7B with LoRA via Hugging Face PEFT on 1,200 maintenance records, cutting hallucinations.
+- Scaled defect inspection from a single station to 180 edge nodes across 8 plants using Triton Inference Server on Jetson Orin with TensorRT quantization.
+- Developed hydraulic cylinder failure prediction with a Temporal Fusion Transformer, beating the hand engineered LightGBM baseline by 7 points of recall.
+- Prevented bad models from reaching production with a two week shadow deployment process compared through MLflow Model Registry.
+- Built an agentic tool calling layer in LangChain with function access to live InfluxDB telemetry and SAP work order history.
 
 </td>
 </tr>
