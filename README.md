@@ -18,20 +18,11 @@
 ## About Me
 
 ```python
-class DataScientist:
+class AI Engineer:
     def __init__(self):
         self.name = "Rissi Kumar Prabhakaran"
         self.location = "Denver, Colorado"
         self.education = "MS Data Science @ CU Boulder (GPA: 3.7/4.0)"
-
-    def get_interests(self):
-        return ["Machine Learning", "Deep Learning", "NLP", "Bioacoustics AI",
-                "Data Analytics", "GenAI", "Agentic AI"]
-
-    def current_focus(self):
-        return {
-            "working_on": ["Multi-retailer document AI platform", "Agentic tool-calling systems"],
-            "learning": ["Production MLOps", "Agent evaluation frameworks"],
         }
 ```
 
