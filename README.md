@@ -18,155 +18,84 @@
 ## About Me
 
 ```python
-class AI Engineer:
+class AIEngineer:
     def __init__(self):
         self.name = "Rissi Kumar Prabhakaran"
         self.location = "Denver, Colorado"
         self.education = "MS Data Science @ CU Boulder (GPA: 3.7/4.0)"
+
+    def get_interests(self):
+        return ["Machine Learning", "Deep Learning", "NLP", "Bioacoustics AI",
+                "Data Analytics", "GenAI", "Agentic AI"]
+
+    def current_focus(self):
+        return {
+            "working_on": ["Multi-retailer document AI platform", "Agentic tool-calling systems"],
+            "learning": ["Production MLOps", "Agent evaluation frameworks"],
         }
 ```
 
 ---
 
-<section class="exp-timeline">
-  <style>
-    .exp-timeline {
-      background: #0a0e1a;
-      padding: 60px 20px;
-      position: relative;
-      font-family: 'Segoe UI', system-ui, sans-serif;
-    }
-    .exp-timeline .line {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: linear-gradient(180deg, #3b82f6, #1e3a8a);
-      transform: translateX(-50%);
-    }
-    .exp-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      margin-bottom: 60px;
-    }
-    .exp-row.left .exp-card { margin-right: auto; text-align: left; }
-    .exp-row.right .exp-card { margin-left: auto; text-align: left; }
-    .exp-node {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #0a0e1a;
-      border: 3px solid #3b82f6;
-      box-shadow: 0 0 12px rgba(59,130,246,0.6);
-      z-index: 2;
-    }
-    .exp-card {
-      background: #121829;
-      border: 1px solid #1f2a44;
-      border-radius: 14px;
-      padding: 26px 28px;
-      width: 42%;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-    }
-    .exp-card h3 {
-      color: #ffffff;
-      font-size: 20px;
-      margin: 0 0 4px;
-    }
-    .exp-card .role {
-      color: #60a5fa;
-      font-size: 15px;
-      font-weight: 600;
-      margin: 0 0 6px;
-    }
-    .exp-card .meta {
-      color: #8b94a8;
-      font-size: 13px;
-      margin: 0 0 16px;
-    }
-    .exp-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .exp-tags span {
-      background: rgba(59,130,246,0.12);
-      border: 1px solid rgba(96,165,250,0.4);
-      color: #93c5fd;
-      font-size: 12.5px;
-      padding: 5px 12px;
-      border-radius: 20px;
-    }
-    @media (max-width: 768px) {
-      .exp-card { width: 85%; }
-      .exp-row.left .exp-card,
-      .exp-row.right .exp-card { margin: 0 auto; }
-    }
-  </style>
+## Professional Experience
 
-  <div class="line"></div>
+<table>
+<tr>
+<td width="6%" align="center" valign="top">
 
-  <div class="exp-row right">
-    <div class="exp-node"></div>
-    <div class="exp-card">
-      <h3>Pure Fishing</h3>
-      <p class="role">AI Developer Intern</p>
-      <p class="meta">July 2026 - Present &middot; Charleston, South Carolina</p>
-      <div class="exp-tags">
-        <span>Python</span>
-        <span>Azure Document Intelligence</span>
-        <span>Azure Blob Storage</span>
-        <span>Azure AI Search</span>
-        <span>Docker</span>
-        <span>Claude Code</span>
-        <span>GitHub Actions</span>
-      </div>
-    </div>
-  </div>
+<br>
+<img width="16" height="16" src="https://img.shields.io/badge/-●-3b82f6?style=flat-square&color=3b82f6&labelColor=3b82f6"/>
+<br>│<br>│<br>│<br>│<br>│
 
-  <div class="exp-row left">
-    <div class="exp-node"></div>
-    <div class="exp-card">
-      <h3>Kashmir World Foundation</h3>
-      <p class="role">AI Data Engineer Intern</p>
-      <p class="meta">June 2025 - April 2026 &middot; Great Falls, Virginia</p>
-      <div class="exp-tags">
-        <span>PyTorch</span>
-        <span>Triton Inference Server</span>
-        <span>FAISS</span>
-        <span>Sentence Transformers</span>
-        <span>OpenRouter</span>
-        <span>Kubernetes</span>
-        <span>Agno</span>
-      </div>
-    </div>
-  </div>
+</td>
+<td width="94%">
 
-  <div class="exp-row right">
-    <div class="exp-node"></div>
-    <div class="exp-card">
-      <h3>Classic Engineering Corporation</h3>
-      <p class="role">AI Engineer</p>
-      <p class="meta">June 2022 - July 2024 &middot; Chennai, India</p>
-      <div class="exp-tags">
-        <span>Llama 2-7B</span>
-        <span>LoRA</span>
-        <span>Hugging Face PEFT</span>
-        <span>TensorRT</span>
-        <span>MLflow</span>
-        <span>LangChain</span>
-        <span>Langfuse</span>
-      </div>
-    </div>
-  </div>
-</section>
+**Pure Fishing** &nbsp;·&nbsp; *AI Developer Intern*
+<br><sub>July 2026 – Present &nbsp;|&nbsp; Charleston, South Carolina</sub>
+
+`Python` `Azure Document Intelligence` `Azure Blob Storage` `Azure AI Search` `Docker` `Claude Code` `GitHub Actions`
+
+Built a single orchestrator with deterministic tool calls in Python, cutting agent overhead and latency on a dispute resolution system. Designed a 3 state signature classifier for the sign box combining a text check on Azure Document Intelligence OCR output with an ink density check on the rendered page. Audited OCR output, found handwriting flags, checkboxes, and figures were being silently dropped, and designed a raw data layer in Azure Blob Storage that preserves full output. Replaced a fifteen minute manual cross system lookup with an automated document chain retrieval system in Azure AI Search. Cut new retailer onboarding down to a single profile and test suite with a retailer profile abstraction stored as configuration data.
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+
+<img width="16" height="16" src="https://img.shields.io/badge/-●-3b82f6?style=flat-square&color=3b82f6&labelColor=3b82f6"/>
+<br>│<br>│<br>│<br>│<br>│
+
+</td>
+<td>
+
+**Kashmir World Foundation** &nbsp;·&nbsp; *AI Data Engineer Intern*
+<br><sub>June 2025 – April 2026 &nbsp;|&nbsp; Great Falls, Virginia</sub>
+
+`PyTorch` `Triton Inference Server` `FAISS` `Sentence Transformers` `OpenRouter` `Kubernetes` `Agno`
+
+Replaced a single prompt OpenAI flight controller with a 4 agent autonomous system (Spatial, Vision, Data, Coordinator) on Agno, cutting execution time to under 40 seconds. Routed 70% of vision calls to Qwen3-VL-32B and Gemini 2.0 Flash on a latency budget policy, removing another 60% of avoidable calls with a pre filter gate. Cleared a 6 week analyst backlog in 4 days and lifted species classification precision 11% across 100,000+ audio samples by fine tuning a BirdNET and YamNET ensemble. Built a FAISS backed RAG system indexing 23,000 documents, dropping agent context retrieval time to 280ms p95. Benchmarked Gemma 4 dense against MoE variants, catching Qwen3-VL fabricating a translation and selecting models on cost per correct call.
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+
+<img width="16" height="16" src="https://img.shields.io/badge/-●-3b82f6?style=flat-square&color=3b82f6&labelColor=3b82f6"/>
+
+</td>
+<td>
+
+**Classic Engineering Corporation** &nbsp;·&nbsp; *AI Engineer*
+<br><sub>June 2022 – July 2024 &nbsp;|&nbsp; Chennai, India</sub>
+
+`Llama 2-7B` `LoRA` `Hugging Face PEFT` `TensorRT` `MLflow` `LangChain` `Langfuse`
+
+Fine tuned Llama 2-7B with LoRA via Hugging Face PEFT on 1,200 maintenance records, cutting hallucinations. Scaled defect inspection from a single station to 180 edge nodes across 8 plants using Triton Inference Server on Jetson Orin with TensorRT quantization. Developed hydraulic cylinder failure prediction with a Temporal Fusion Transformer, beating the hand engineered LightGBM baseline by 7 points of recall. Prevented bad models from reaching production with a two week shadow deployment process compared through MLflow Model Registry. Built an agentic tool calling layer in LangChain with function access to live InfluxDB telemetry and SAP work order history.
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## Featured Projects
@@ -385,11 +314,28 @@ Published in Proceedings of 2nd International Conference on AI and ML Applicatio
 
 ---
 
+## What I'm Currently Working On
+
+```yaml
+Current_Projects:
+  - Multi-retailer document AI platform (Azure Document Intelligence, Azure AI Search)
+  - Agentic tool-calling systems for diagnostics and dispute resolution
+
+Learning:
+  - Production MLOps and shadow deployment practices
+  - Agent evaluation frameworks and model routing policy design
+
+Looking_For:
+  - Full-time Data Science / AI Engineering opportunities starting 2026
+  - Collaborative ML projects
+  - Research opportunities in AI/ML
+```
+
 ## Let's Connect
 
 <div align="center">
 
-
+### Open to Data Science and AI Engineering Opportunities
 
 I build production-ready ML and agentic AI systems and like turning messy data into systems people can actually rely on. Let's collaborate on impactful projects.
 
