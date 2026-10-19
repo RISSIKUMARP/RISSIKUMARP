@@ -28,38 +28,145 @@ class AI Engineer:
 
 ---
 
-## Professional Experience
+<section class="exp-timeline">
+  <style>
+    .exp-timeline {
+      background: #0a0e1a;
+      padding: 60px 20px;
+      position: relative;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+    .exp-timeline .line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, #3b82f6, #1e3a8a);
+      transform: translateX(-50%);
+    }
+    .exp-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 60px;
+    }
+    .exp-row.left .exp-card { margin-right: auto; text-align: left; }
+    .exp-row.right .exp-card { margin-left: auto; text-align: left; }
+    .exp-node {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #0a0e1a;
+      border: 3px solid #3b82f6;
+      box-shadow: 0 0 12px rgba(59,130,246,0.6);
+      z-index: 2;
+    }
+    .exp-card {
+      background: #121829;
+      border: 1px solid #1f2a44;
+      border-radius: 14px;
+      padding: 26px 28px;
+      width: 42%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .exp-card h3 {
+      color: #ffffff;
+      font-size: 20px;
+      margin: 0 0 4px;
+    }
+    .exp-card .role {
+      color: #60a5fa;
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 0 6px;
+    }
+    .exp-card .meta {
+      color: #8b94a8;
+      font-size: 13px;
+      margin: 0 0 16px;
+    }
+    .exp-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .exp-tags span {
+      background: rgba(59,130,246,0.12);
+      border: 1px solid rgba(96,165,250,0.4);
+      color: #93c5fd;
+      font-size: 12.5px;
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+    @media (max-width: 768px) {
+      .exp-card { width: 85%; }
+      .exp-row.left .exp-card,
+      .exp-row.right .exp-card { margin: 0 auto; }
+    }
+  </style>
 
-### Pure Fishing | AI Developer Intern
-*July 2026 - Present | Charleston, South Carolina*
+  <div class="line"></div>
 
-- Built a single orchestrator with deterministic tool calls in Python, cutting agent overhead and latency on a dispute resolution system.
-- Designed a 3 state signature classifier for the sign box combining a text check on Azure Document Intelligence OCR output with an ink density check on the rendered page, frozen per index version with a corpus learned prompt list.
-- Audited Azure Document Intelligence OCR output, found handwriting flags, checkboxes, and figures were being silently dropped, and designed a raw data layer in Azure Blob Storage that preserves full output.
-- Replaced a fifteen minute manual cross-system lookup with an automated document chain retrieval system, modeling every identifier across an order's document set as its own key row tied to a document ID and key type in Azure AI Search.
-- Cut new retailer onboarding down to a single profile and test suite by designing a retailer profile abstraction storing identification signals, field mappings, and extraction rules as configuration data on a shared multi retailer Azure AI Search engine.
-- Kept architecture decisions consistent across a production multi retailer document platform containerized in Docker, using Claude Code and Codex CLI as coding agents wired into a shared Obsidian knowledge vault through an MCP server, with automated GitHub Actions regression runs alongside specialist subagents.
+  <div class="exp-row right">
+    <div class="exp-node"></div>
+    <div class="exp-card">
+      <h3>Pure Fishing</h3>
+      <p class="role">AI Developer Intern</p>
+      <p class="meta">July 2026 - Present &middot; Charleston, South Carolina</p>
+      <div class="exp-tags">
+        <span>Python</span>
+        <span>Azure Document Intelligence</span>
+        <span>Azure Blob Storage</span>
+        <span>Azure AI Search</span>
+        <span>Docker</span>
+        <span>Claude Code</span>
+        <span>GitHub Actions</span>
+      </div>
+    </div>
+  </div>
 
-### Kashmir World Foundation | AI Data Engineer Intern
-*June 2025 - April 2026 | Great Falls, Virginia*
+  <div class="exp-row left">
+    <div class="exp-node"></div>
+    <div class="exp-card">
+      <h3>Kashmir World Foundation</h3>
+      <p class="role">AI Data Engineer Intern</p>
+      <p class="meta">June 2025 - April 2026 &middot; Great Falls, Virginia</p>
+      <div class="exp-tags">
+        <span>PyTorch</span>
+        <span>Triton Inference Server</span>
+        <span>FAISS</span>
+        <span>Sentence Transformers</span>
+        <span>OpenRouter</span>
+        <span>Kubernetes</span>
+        <span>Agno</span>
+      </div>
+    </div>
+  </div>
 
-- Replaced a single prompt OpenAI flight controller with a 4 agent autonomous system (Spatial, Vision, Data, Coordinator) on Agno, deployed as Kubernetes orchestrated workers, cutting execution time to under 40 seconds.
-- Routed 70% of vision calls to Qwen3-VL-32B and Gemini 2.0 Flash on a latency budget policy, removing another 60% of avoidable calls with a lightweight object detection pre filter gate.
-- Cleared a 6 week analyst backlog in 4 days and lifted species classification precision 11% across 100,000+ audio samples by fine tuning a BirdNET/YamNET ensemble in PyTorch on region specific mel spectrograms, served via batched Triton Inference Server.
-- Built a FAISS backed RAG system indexing 23,000 documents via sentence-transformers, dropping agent context retrieval time to 280ms p95 and reducing hallucinated answers.
-- Benchmarked Gemma 4 dense against MoE variants with thinking mode on and off, building a multi script OCR evaluation that caught Qwen3-VL fabricating a translation and selecting models on cost per correct call.
-
-### Classic Engineering Corporation | AI Engineer
-*June 2022 - July 2024 | Chennai, India*
-
-- Fine tuned Llama 2-7B on domain language with LoRA via Hugging Face PEFT on 1,200 maintenance records, cutting hallucinations.
-- Scaled defect inspection from a single station to 180 edge nodes across 8 plants by consolidating inference behind Triton Inference Server on Jetson Orin with TensorRT quantization, holding accuracy within 0.4% of FP32 while tripling throughput per device.
-- Developed hydraulic cylinder failure prediction by fitting a Temporal Fusion Transformer in PyTorch on raw pressure decay traces, beating the hand engineered LightGBM baseline by 7 points of recall.
-- Prevented bad models from reaching production by running every candidate through a two week shadow deployment against live Ateq tester traffic before promotion, comparing champion and challenger scores through MLflow Model Registry.
-- Lifted maintenance assistant answer accuracy by replacing pure dense retrieval with hybrid BM25 plus embedding search and a cross encoder reranker, measured through a custom retrieval precision and answer faithfulness evaluation harness.
-- Built an agentic tool calling layer in LangChain with function access to live InfluxDB telemetry and SAP work order history, giving operators a diagnostic assistant instead of a search box.
-- Cut LLM spend by routing straightforward lookups to a smaller model and reserving the frontier model for multi hop diagnostics, validated on a held out query set through Langfuse traces.
-
+  <div class="exp-row right">
+    <div class="exp-node"></div>
+    <div class="exp-card">
+      <h3>Classic Engineering Corporation</h3>
+      <p class="role">AI Engineer</p>
+      <p class="meta">June 2022 - July 2024 &middot; Chennai, India</p>
+      <div class="exp-tags">
+        <span>Llama 2-7B</span>
+        <span>LoRA</span>
+        <span>Hugging Face PEFT</span>
+        <span>TensorRT</span>
+        <span>MLflow</span>
+        <span>LangChain</span>
+        <span>Langfuse</span>
+      </div>
+    </div>
+  </div>
+</section>
 ---
 
 ## Featured Projects
