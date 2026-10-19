@@ -287,28 +287,11 @@ Published in Proceedings of 2nd International Conference on AI and ML Applicatio
 
 ---
 
-## What I'm Currently Working On
-
-```yaml
-Current_Projects:
-  - Multi-retailer document AI platform (Azure Document Intelligence, Azure AI Search)
-  - Agentic tool-calling systems for diagnostics and dispute resolution
-
-Learning:
-  - Production MLOps and shadow deployment practices
-  - Agent evaluation frameworks and model routing policy design
-
-Looking_For:
-  - Full-time Data Science / AI Engineering opportunities starting 2026
-  - Collaborative ML projects
-  - Research opportunities in AI/ML
-```
-
 ## Let's Connect
 
 <div align="center">
 
-### Open to Data Science and AI Engineering Opportunities
+
 
 I build production-ready ML and agentic AI systems and like turning messy data into systems people can actually rely on. Let's collaborate on impactful projects.
 
