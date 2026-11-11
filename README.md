@@ -84,16 +84,27 @@ class AIEngineer:
 </td>
 <td>
 
-**Classic Engineering Corporation** &nbsp;·&nbsp; *AI Engineer*
+**Classic Engineering Corporation** &nbsp;·&nbsp; *Lead AI Engineer*
 <br><sub>June 2022 – July 2024 &nbsp;|&nbsp; Chennai, India</sub>
 
-![Llama](https://img.shields.io/badge/Llama_2--7B-0668E1?style=flat-square&logo=meta&logoColor=white) ![LoRA](https://img.shields.io/badge/LoRA-FF6F61?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging_Face_PEFT-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-0668E1?style=flat-square) ![SHAP](https://img.shields.io/badge/SHAP-FF6F61?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FFD21E?style=flat-square&logoColor=black) ![YOLOv7](https://img.shields.io/badge/YOLOv7-5C2D91?style=flat-square) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Azure Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 
-- Fine tuned Llama 2-7B with LoRA via Hugging Face PEFT on 1,200 maintenance records, cutting hallucinations.
-- Scaled defect inspection from a single station to 180 edge nodes across 8 plants using Triton Inference Server on Jetson Orin with TensorRT quantization.
-- Developed hydraulic cylinder failure prediction with a Temporal Fusion Transformer, beating the hand engineered LightGBM baseline by 7 points of recall.
-- Prevented bad models from reaching production with a two week shadow deployment process compared through MLflow Model Registry.
-- Built an agentic tool calling layer in LangChain with function access to live InfluxDB telemetry and SAP work order history.
+- Protected a decision that can scrap a part from becoming a black box by keeping the model on XGBoost with SHAP explainability.
+- Caught the AI assistant giving wrong answers with no warning sign, fixed it by adding guardrails and a quality-testing process.
+- Kept an AI assistant trained on 12 years of maintenance records accurate as new incidents kept coming in, by choosing a search-based design over retraining the model, using LangChain, ChromaDB, and the OpenAI GPT-3.5 API.
+- Stopped PoC work from stalling by requiring a deployment plan and success metric before any pilot got engineering time.
+- Grew the AI function from a single contributor to a 6-person team of AI engineers, data scientist interns, and data analysts by owning hiring, technical interviews, and onboarding end to end.
+- Retained a key client who had been repeatedly escalating part-quality complaints, by cutting manufacturing scrap cost 18% through a rebuilt defect-detection model (YOLOv7 + TensorRT) redeployed via Kubernetes across plants.
+- Scaled a plant-performance analytics program from one plant to 310 machines across 4 plants, by architecting a governed data pipeline on Kafka, Azure Databricks, and Delta Lake, with dbt as the team's data-quality standard.
+
+**Classic Engineering Corporation** &nbsp;·&nbsp; *AI Engineer*
+<br><sub>Oct 2020 – June 2022 &nbsp;|&nbsp; Chennai, India</sub>
+
+![YOLOv5x](https://img.shields.io/badge/YOLOv5x-5C2D91?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Jetson Nano](https://img.shields.io/badge/Jetson_Nano-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Azure](https://img.shields.io/badge/Azure_Form_Recognizer-0089D6?style=flat-square&logo=microsoftazure&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+- Shipped the company's first production ML model at 89.6% accuracy, building a YOLOv5x classifier via FastAPI on a Jetson Nano edge device at the machine exit station.
+- Eliminated a recurring manual report by automating rejection-trend analysis against Azure SQL DB with scheduled Excel distribution.
+- Cut manual invoice and purchase-order entry time by roughly 70% by building a document automation pipeline on Azure Form Recognizer, with a Python validation layer writing clean records into Azure SQL Database.
 
 </td>
 </tr>
